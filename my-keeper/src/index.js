@@ -14,8 +14,12 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import Favicon from 'react-favicon';
 import App from "./components/App";
 
 ReactDOM.render(
+  <div>
+  <Favicon url='https://cdn-icons-png.flaticon.com/512/551/551080.png' />
   <App/>
+  </div>
   ,document.getElementById("root"));
